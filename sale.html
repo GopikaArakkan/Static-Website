@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Sale - Shop Now!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: goldenrod;
+      width: 100%;
+      color: white;
+    padding: 10px;
+      text-align: center;
+    }
+    .tab-bar{ 
+         box-shadow: 2px 2px 8px rgb(79, 78, 78);
+             display: flex;
+            width: 100%;
+            height:80px;
+            gap: 20px;
+            font-size: 8px;
+            overflow: hidden;
+            
+        }
+        .menu{
+            margin-right: 80px;
+        }
+        .menu ul{
+            display: flex;
+            gap:20px;
+            list-style-type: none;  
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+       
+        .logo img{
+            /* width: 35px; */
+            border-radius: 50%;
+             box-shadow:2px 2px 8px blue, 1px 1px 10px purple;
+            margin-left: 80px;
+            margin-top: 4px;
+        }
+       
+       .menu ul li a:hover {
+         background-color: whitesmoke; 
+         box-shadow: 2px 2px 8px grey;
+         padding:12px;
+         border-radius: 10%; 
+         color: black;
+       }
+      
+      
+    
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+     
+    }
+    .product{
+      background: white;
+       box-shadow: 2px 2px 8px rgb(79, 78, 78);
+      margin: 10px;
+      padding: 15px;
+      width: 200px;
+      text-align: center;
+    }
+    .product:hover{
+         transform: scale(1.1); /* Increase size by 20% */
+      transition: transform 2s ease; 
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .price {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .sale-tag {
+      background: #ffcc00;
+      color: #333;
+      padding: 5px;
+      font-size: 0.9em;
+      border-radius: 4px;
+      margin-top: 5px;
+      display: inline-block;
+    }
+    
+    h3{
+        font-weight:normal
+    }
+
+    .content1{
+    background-color: rgb(200, 199, 200);
+    box-shadow:  2px 2px 8px grey;
+    margin-top: 60px;
+}
+.container3{
+            display:flex;
+             flex-wrap: wrap;
+             box-sizing: border-box;
+             justify-content: center;
+             align-content: center;
+              gap:80px;
+               /* justify-content: space-between; */
+            width: 100%;
+           padding-left: 50px;
+            
+            
+        }
+        .footer-logo{
+             display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust as needed */
+    width: 200px;  /* Adjust as needed */
+  }
+               
+
+        .footer-logo img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+             box-shadow:2px 2px 8px blue, 1px 1px 10px purple;
+             justify-content: center;
+             margin-top: 40px;
+             margin-left: 800px;
+        }
+        .footer{
+            width: 150px;
+            height:250px;
+             /* border: 2px solid black;   */
+             text-align: left;
+            background-color: rgb(200, 199, 200);
+          
+        }
+       
+       .footer ul li a {
+        padding: 5px;
+        font-size: 12px;
+       }
+       .footer ul{
+         list-style-type: none;
+       }
+       .footer h4{
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 15px;
+       }
+
+      
+        .footer ul li a:hover {
+         /* background-color: whitesmoke; */
+         transform: scale(1.1);
+          transition: transform 2s ease;
+         /* transition:transform 1.2s ease; */
+         background-color: rgb(247, 238, 238);
+         box-shadow: 2px 2px 8px grey;
+         padding:8px;
+         border-radius: 10%; 
+         color: black;
+       }
+       
+      .footer1{
+        margin-bottom: 40px;
+        font-size: 12px;
+       }
+      
+
+       .footer1 h4{
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 15px;
+       }
+        .footer1 img:hover{
+        transform: scale(1.1); /* Increase size by 20% */
+      /* transition: transform 2s ease;  */
+      box-shadow: 2px 2px 8px rgb(154, 153, 153),2px 2px 8px rgb(143, 141, 207);
+       }
+       h1{
+        padding: 10px;
+       }
+       
+  </style>
+</head>
+<body>
+<div class="fixed">
+  <header>
+    <h1>Enjoy 25% discount on all orders above 999! </h1>
+    <h3>Countdown Starts!</h2>
+  <div id="countdown"></div>
+  </header>
+   <div class="menu">
+           <ul>
+                <li><a href="static website.html" class="active">Home</a></li>
+                <!-- <li><a href="#shop">Shop</a></li> -->
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="sale.html">Sale</a></li>
+                 <li><a href="about.html">About</a></li>
+                  
+            </ul>
+        </div>
+        </div>
+        <br><br>
+
+  <section class="products">
+    <div class="product">
+     <a href="saree.html"><img src="saree11.jpg" alt="Shoes" /></a> 
+      <h3>Running Shoes</h3>
+      <div class="price">₹1,999</div>
+      <div class="sale-tag">50% OFF</div>
+    </div>
+    <div class="product">
+     <a href="braceletcart.html"><img src="bracelet12.webp" alt="Headphones" /></a> 
+      <h3>Wireless Headphones</h3>
+      <div class="price">₹2,499</div>
+      <div class="sale-tag">30% OFF</div>
+    </div>
+    <div class="product">
+      <a href="necklace.html"><img src="necklace.jpg" alt="Smartwatch" /></a>
+      <h3>Smartwatch</h3>
+      <div class="price">₹3,999</div>
+      <div class="sale-tag">40% OFF</div>
+    </div>
+  </section>
+
+ <!-- section3 
+        <section class="content1">
+            <div class="footer-logo">
+         <img src="mylogo.webp" alt="logo" width="60">
+         </div>
+      <div class="container3">
+        <div class="footer">      
+        <ul>    
+      <li><h4>Quick Links</h4></li>
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+
+    <div class="footer">      
+        <ul>    
+       <li><h4>Quick Links</h4></li>
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+    <div class="footer">      
+        <ul>    
+       <li><h4>Quick Links</h4></li>
+      
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+    <div class="footer1">      
+        <h4>Connect with us</h4>
+       <a href="https://google.com" target="_blank"><img src="fb.jpg" width="20px" height="20px"></a><br> -->
+     <!-- <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="20px" height="20px"></a><br>  
+    </div>
+    </div> -->
+    
+        <script>
+    // Set the target date and time
+    const targetDate = new Date("2025-12-31T23:59:59").getTime();
+
+    // Update the countdown every second
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const timeLeft = targetDate - now;
+
+      if (timeLeft > 0) {
+        // Calculate days, hours, minutes, and seconds
+        // const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+        // Display the result
+        document.getElementById("countdown").innerHTML = 
+          `${hours}h : ${minutes}m : ${seconds}s`
+      } else {
+        // Stop the timer and display a message
+        clearInterval(interval);
+        document.getElementById("countdown").innerHTML = "Happy New Year!";
+      }
+    }, 1000);
+  </script>
+</body>
+</html>
+

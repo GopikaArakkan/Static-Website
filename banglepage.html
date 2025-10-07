@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Jewelers</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="icons.css">
+<style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: 'cursive';
+            
+           
+        }
+         header{
+            /* position: sticky; */
+            width:100%;
+            height: 30px;
+            background-color:goldenrod;
+            /* border: 2px solid black; */
+                    }
+        marquee {
+            
+         height: 40px;
+        line-height: 30px;
+        font-size: 12px;
+        font-weight: normal;
+        color: black;
+         }
+       
+        .tab-bar{ 
+            
+             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height:80px;
+            gap: 20px;
+            font-size: 12px;
+            background-color:white;
+             overflow: hidden; 
+           
+            
+        }
+        .menu{
+            margin-right: 80px;
+        }
+        .menu ul{
+            display: flex;
+            gap:20px;
+            list-style-type: none;  
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+       
+        .logo img{
+            /* width: 35px; */
+            border-radius: 50%;
+             box-shadow:2px 2px 8px blue, 1px 1px 10px purple;
+            margin-left: 80px;
+            margin-top: 4px;
+        }
+       
+       .menu ul li a:hover {
+         /* background-color: whitesmoke; */
+         transform: scale(1.1);
+          transition: transform 2s ease;
+         /* transition:transform 1.2s ease; */
+         background-color: rgb(247, 238, 238);
+         box-shadow: 2px 2px 8px grey;
+         padding:8px;
+         border-radius: 10%; 
+         color: black;
+       }
+       .fixed{
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+       }
+       /* }
+         .search-bar{
+            background-color: rgb(24, 17, 17);
+            display: flex;
+            width: 30%;
+            margin-right: 10px;
+            justify-content: start;
+            align-items: center;
+        } 
+
+        .search-bar input{
+        padding: 8px;
+        font-size: 12px;
+        border: 1px solid grey;
+        float:right;
+        width: 80%;
+        background: #f1f1f1;
+             outline: none;
+            border-top-left-radius: 13px;
+            border-bottom-left-radius: 13px;
+             border:0.5px solid grey;
+           
+        }
+        .search-icon button{
+           float: right;
+          padding: 8px;
+         color: white;
+        font-size: 12px;
+        border: 1px solid grey;
+        cursor: pointer;
+        background-color: blue;
+        }
+        .search-icon button:hover{
+            font-size: 15px;
+        } */
+       .gold-cover img{
+        background-position: center;
+        background-size: cover;
+       width:100%;
+       height:auto;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+
+        .container1{
+            display:flex;
+             flex-wrap: wrap;
+             box-sizing: border-box;
+              gap:10px;
+               justify-content: center; 
+           align-content: center; 
+            width: 100%;
+            background-color:white;
+            padding-left: 140px;
+            padding-right: 140px;
+           
+        }
+       
+
+        
+        .necklace{
+            width: 150px;
+            height: 300px;
+             /* border: 2px solid black;   */
+             text-align: center;
+            background-color: whitesmoke;
+             box-shadow: 2px 2px 8px grey;
+          
+        }
+        .necklace img{
+            width: 100%;
+            height: 200px;
+            box-shadow: 2px 2px 8px grey;
+           
+        }
+        
+
+        .content h3{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            padding-left: 186px;
+            font-weight: normal;
+        }
+        .necklace a{
+            font-size: 12px;
+        }
+        .box{
+            padding-top: 12px;
+        }
+        /* .necklace img:hover{ */
+           .necklace {
+            overflow: hidden;
+      transition: transform 2s ease; /* Smooth transition */
+    }
+    .necklace img:hover {
+      transform: scale(1.1); /* Increase size by 20% */
+      transition: transform 2s ease; 
+    }
+    .box:hover{
+         transform: scale(1.1);
+         /* transition:transform 1.2s ease; */
+         background-color: whitesmoke;
+         padding:8px;
+         border-radius: 10%;
+         color: black;
+    }  
+
+/* section2 */
+.container2{
+            display:flex;
+             flex-wrap: wrap;
+             box-sizing: border-box;
+              gap:10px;
+               justify-content: center; 
+           align-content: center; 
+            width: 100%;
+            background-color:white;
+            padding-left: 140px;
+            padding-right: 140px;
+           
+        }
+ .necklace{
+            width: 150px;
+            height:250px;
+             /* border: 2px solid black;   */
+             text-align: center;
+            background-color: whitesmoke;
+          
+        }
+        .necklace img{
+            width: 100%;
+            height: 200px;
+           
+        }
+        
+
+        .content h3{
+            margin-top: 40px;
+            margin-bottom: 30px;
+            padding-left: 186px;
+            font-weight: normal;
+        }
+        .necklace a{
+            font-size: 12px;
+        }
+        .box{
+            padding-top: 12px;
+        }
+        /* .necklace img:hover{ */
+           .necklace {
+            overflow: hidden;
+      transition: transform 2s ease; /* Smooth transition */
+    }
+    .necklace img:hover {
+      transform: scale(1.1); /* Increase size by 20% */
+      transition: transform 2s ease; 
+    }
+    .box:hover{
+         transform: scale(1.1);
+         /* transition:transform 1.2s ease; */
+         background-color: whitesmoke;
+         padding:8px;
+         border-radius: 10%;
+         color: black;
+    }  
+
+
+    /* section 3 */
+.content1{
+    background-color: rgb(200, 199, 200);
+    box-shadow:  2px 2px 8px grey;
+    margin-top: 60px;
+}
+.container3{
+            display:flex;
+             flex-wrap: wrap;
+             box-sizing: border-box;
+             justify-content: center;
+             align-content: center;
+              gap:80px;
+               /* justify-content: space-between; */
+            width: 100%;
+           padding-left: 50px;
+            
+            
+        }
+        .footer-logo{
+             display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Adjust as needed */
+    width: 200px;  /* Adjust as needed */
+  }
+               
+
+        .footer-logo img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+             box-shadow:2px 2px 8px blue, 1px 1px 10px purple;
+             justify-content: center;
+             margin-top: 40px;
+             margin-left: 800px;
+        }
+        .footer{
+            width: 150px;
+            height:250px;
+             /* border: 2px solid black;   */
+             text-align: left;
+            background-color: rgb(200, 199, 200);
+          
+        }
+       
+       .footer ul li a {
+        padding: 5px;
+        font-size: 12px;
+       }
+       .footer ul{
+         list-style-type: none;
+       }
+       .footer h4{
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 15px;
+       }
+
+      
+        .footer ul li a:hover {
+         /* background-color: whitesmoke; */
+         transform: scale(1.1);
+          transition: transform 2s ease;
+         /* transition:transform 1.2s ease; */
+         background-color: rgb(247, 238, 238);
+         box-shadow: 2px 2px 8px grey;
+         padding:8px;
+         border-top-left-radius: 5px;
+         border-bottom-left-radius: 5px;
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px; 
+         color: black;
+       }
+       
+      .footer1 ul li a {
+        padding: 5px;
+        font-size: 12px;
+       }
+       .footer1 ul{
+         list-style-type: none;
+       }
+       .footer1 h4{
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 15px;
+       }
+        .footer1 img:hover{
+        transform: scale(1.1); /* Increase size by 20% */
+      /* transition: transform 2s ease;  */
+      box-shadow: 2px 2px 8px rgb(154, 153, 153),2px 2px 8px rgb(143, 141, 207);
+       }
+
+       /* cart */
+       .cart{
+        display: flex;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .cart1 img{
+        width:300px;
+        height:400px;
+        box-shadow: 2px 2px 8px rgb(35, 34, 34);
+       }
+       .cart2{
+        width:300px;
+        height:380px;
+        background-color: white;
+        padding: 10px;
+        font-size: 12px;
+       }
+       .cart button{
+        padding:10px;
+        width:300px;
+        height:50px;
+       }
+       .cart img{
+        padding: 5px;
+       }
+      .cart button:hover{
+        background-color: rgb(247, 238, 238);
+         box-shadow: 2px 2px 8px rgb(35, 34, 34);
+       }
+       .cart2 a img:hover{
+        transform: scale(1.1);
+       }
+       .btn{
+        background-color: goldenrod;
+        color:black;
+       }
+      a .btn:hover{
+          background-color: goldenrod;
+        }
+
+        /* media screen */
+        .footer1{
+        margin-bottom: 40px;
+        font-size: 12px;
+       }
+      
+
+       .footer1 h4{
+        font-size: 15px;
+        font-weight: normal;
+        padding-bottom: 15px;
+       }
+        .footer1 img:hover{
+        transform: scale(1.1); /* Increase size by 20% */
+      /* transition: transform 2s ease;  */
+      box-shadow: 2px 2px 8px rgb(154, 153, 153),2px 2px 8px rgb(143, 141, 207);
+       }
+
+        /* media screen */
+         @media only screen and (max-width: 600px) { 
+  .container1{
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+    
+  }
+  .container2{
+    flex-direction:column;
+         width: 100%;
+            height:100%;
+     
+  }
+   .content1{
+   flex-direction:column;
+         width: 100%;
+            height:100%;
+   }
+        
+           .tab-bar ul{
+            display: flex;
+          justify-content: center;
+          align-items: center;
+              width: 100%;
+            height:80px;
+            gap: 20px;
+            font-size: 12px;
+            background-color:white;
+             overflow: hidden;
+          }
+          .fixed{
+            position: static;
+          }
+          .gold-cover img{
+        background-position: center;
+        background-size: cover;
+       width:100%;
+       height:auto;
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+         box-shadow: 2px 2px 8px rgb(65, 65, 65);
+       }
+         .logo img{
+          margin-left: 10px;
+         }
+           
+         .content h3{
+            padding-left: 130px;
+        }
+        
+
+        .cart1 img{
+        width:200px;
+        height:320px;
+        box-shadow: 2px 2px 8px rgb(35, 34, 34);
+       }
+       .cart2{
+        width:280px;
+        height:300px;
+        background-color: white;
+        padding: 10px;
+        font-size: 8px;
+       }
+       .cart2 button{
+    padding:5px;
+        width:80px;
+        height:30px;
+
+        }
+         .footer-logo img{
+          margin-left: 160px;
+          margin-bottom:40px ;
+    }
+    .cart2 a img{
+      width:20px;
+      height:20px;
+    }
+  }
+</style>
+</head>
+<body> 
+    <div class="fixed">
+    <header>
+        <div class="marquee">
+        <marquee><p><pre>Enjoy 25% discount on all orders above 999!             Enjoy 25% discount on all orders above 999!            Enjoy 25% discount on all orders above 999!             Enjoy 25% discount on all orders above 999!</pre></p></marquee>
+    </div>
+    </header>
+    <div class="tab-bar">
+        <div class="logo">
+         <img src="mylogo.webp" alt="logo" width="60">
+         </div>
+    <div class="menu">
+           <ul>
+                <li><a href="static website.html" class="active">Home</a></li>
+               
+                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="sale.html">Sale</a></li>
+                 <li><a href="about.html">About</a></li>
+                  
+            </ul>
+        </div>
+        <!-- <div class="search-bar">
+            <input type="text" placeholder="search products">
+            <div class="search-icon">
+           <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> 
+        </div> -->
+        </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- cart section -->
+ <section class="cart">
+    <div class="cart1">
+        <img src="bangle1.webp" alt="">
+    </div>
+    <div class="cart2">
+        <h2>Non idol Imaara bangles</h2>
+        <br><p>Rs.1699</p>
+        <br>
+        <p>"Hurry up! limited stock available"</p>
+        <br>
+        <p>Size</p>
+        </br>
+        <input type="radio" name="gender" value="size2.4">
+         <label>2.4</label>
+          <input type="radio" name="gender" value="size2.6"> 
+          <label>2.6</label>
+         <input type="radio" name="gender" value="size2.8"> 
+         <label>2.8</label>
+         <br>
+         <br>
+         <button>Add to cart</button>
+         <br>
+         <br>
+        <a href="banglepage3.html"><button class="btn">Buy it now</button></a> 
+         <br>
+         <br>
+         <p>Secured and trusted payment with</p>
+         <br>
+         <a href="https://www.amazon.in/"><img src="a.png" width="30px" height="30px"></a>
+           <a href="https://pay.google.com/about/"><img src="g.png" width="40px" height="40px"></a>
+          
+          <a href="https://paytm.com/"><img src="p.webp" width="30px" height="33px"></a>
+          
+    </div>
+ </section><br><br>
+      
+        <!-- section 1 -->
+        <section class="content">
+         <h3>Bangles</h3>
+      <div class="container1">
+        
+        <div class="necklace">
+      <a href="banglepage.html" alt=""> <img src="bangle1.webp" alt=""><div class="box">Non idol Imaara bangles<br>Rs.1699</div></a>
+    </div>
+
+     <div class="necklace">
+       <a href="banglebuy2.html" alt=""> <img src="bangle4.webp" alt=""><div class="box">dual roja bangles<br>Rs.899</div></a>
+    </div>
+   
+     <div class="necklace">
+         <a href="banglebuy2.html" alt=""> <img src="bangle5.webp" alt=""><div class="box">vintage bangles<br>Rs.799</div></a>
+    </div>
+
+     <div class="necklace">
+         <a href="banglebuy2.html" alt=""> <img src="bangle6.webp" alt=""><div class="box">Antique floral bangles<br>Rs.1400</div></a>
+    </div>
+
+     <div class="necklace">
+         <a href="banglebuy2.html" alt=""> <img src="bangle7.webp" alt=""><div class="box">Classic pearl kada<br>Rs.1699</div></a>
+    </div>
+
+     <div class="necklace">
+        <a href="banglebuy2.html" alt=""> <img src="bangle8.webp" alt=""><div class="box">Vintage bangles<br>Rs.999</div></a>
+    </div>
+
+     <div class="necklace">
+        <a href="banglebuy2.html" alt=""> <img src="bangle9.jpg" alt=""><div class="box">Vintage top bangles<br>Rs.1699</div></a>
+    </div>
+
+    <div class="necklace">
+        <a href="banglebuy2.html" alt=""> <img src="bangle3.webp" alt=""><div class="box">classic stone bangles<br>Rs.999</div></a>
+    </div>
+      </div>
+      </section>
+    
+   
+
+      <!-- section2 -->
+       <section class="content">
+         <h3>Collections</h3>
+      <div class="container2">
+        
+        <div class="necklace">
+      <a href="saree.html" alt=""> <img src="saree.webp" alt=""><div class="box">Saree</div></a>
+    </div>
+
+     <div class="necklace">
+       <a href="bangle.html" alt=""> <img src="bangle10.jpg" alt=""><div class="box">Bangles</div></a>
+    </div>
+   
+     <div class="necklace">
+         <a href="braceletcart.html" alt=""> <img src="ear.jpg" alt=""><div class="box">Earrings</div></a>
+    </div>
+
+     <div class="necklace">
+         <a href="necklace.html" alt=""> <img src="bridal1.jpeg" alt=""><div class="box">Bridal Combo</div></a>
+    </div>
+
+     <div class="necklace">
+         <a href="necklace.html" alt=""> <img src="ad3.jpg" alt=""><div class="box">Stone Jewellery</div></a>
+    </div>
+
+     <div class="necklace">
+        <a href="braceletcart.html" alt=""> <img src="nose1.webp" alt=""><div class="box">Nose Ring</div></a>
+    </div>
+
+     <div class="necklace">
+        <a href="bangle.html" alt=""> <img src="ring1.avif" alt=""><div class="box">Rings</div></a>
+    </div>
+
+    <div class="necklace">
+        <a href="necklace.html" alt=""> <img src="anklt2.jpg" alt=""><div class="box">Anklets</div></a>
+    </div>
+      </div>
+      </section>
+
+
+      <!-- section3  -->
+        <section class="content1">
+            <div class="footer-logo">
+         <img src="mylogo.webp" alt="logo" width="60">
+         </div>
+      <div class="container3">
+        <div class="footer">      
+        <ul>    
+      <li><h4>Quick Links</h4></li>
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+
+    <div class="footer">      
+        <ul>    
+       <li><h4>Quick Links</h4></li>
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+    <div class="footer">      
+        <ul>    
+       <li><h4>Quick Links</h4></li>
+      
+      <li><a href="https://google.com" target="_blank">About Aesthetic Jewellers</a></li><br>
+      <li><a href="https://google.com" target="_blank">My Profile</a></li><br>
+      <li><a href="https://google.com" target="_blank">Wishlist</a></li><br>
+      </ul>
+    </div>
+
+    <div class="footer1">      
+         <h4>Connect with us</h4>
+      <!-- <a href="https://google.com" target="_blank"><img src="fb.jpg" width="20px" height="20px"></a><br> -->
+     <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" width="20px" height="20px"></a><br>  
+    </div>
+    </div>
+    
+        
+</body>
+</html>
